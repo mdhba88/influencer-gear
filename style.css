@@ -144,7 +144,6 @@ header, main{
     align-items: center;
 }
 .popularCards{
-    min-width: 23rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
