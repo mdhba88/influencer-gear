@@ -8,6 +8,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+/* manrope fonts- font-family: "Manrope", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
 
 *{
     margin: 0;
@@ -16,10 +20,10 @@
     box-sizing: border-box;
 }
 
-body{
-    max-width: 23rem;
+header, main{
+    min-width: 23rem;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 0;
 }
 
 /*header section*/
@@ -269,8 +273,58 @@ body{
 
 /* image section */
 #bottomImgSection{
-    margin-top: 10%;
+    margin-top: 15%;
 }
 .bottomImgContainer img{
     width: 100%;
+}
+
+
+/* footer section */
+#footerSection{
+    min-width: 23rem;
+    margin-top: 10%;
+    padding: 3rem 2.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.75rem;
+    background-color: #0A0826;
+}
+.footerText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.footerText h1{
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.footerText p{
+    font-size: 0.9rem;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.footerIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.footerIcon i{
+    background-color: #22213C;
+    color: white;
+    font-size: 1.2rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
