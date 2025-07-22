@@ -216,7 +216,7 @@ body{
 
 
 /* join section */
-.joinSection{
+#joinSection{
     margin-top: 10%;
 }
 .joinText{
@@ -264,4 +264,13 @@ body{
 .joinBtn button i{
     font-size: 1.5rem;
     color: white;
+}
+
+
+/* image section */
+#bottomImgSection{
+    margin-top: 10%;
+}
+.bottomImgContainer img{
+    width: 100%;
 }
